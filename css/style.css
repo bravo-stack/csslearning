@@ -1,0 +1,9 @@
+body {
+    background-color: azure;
+    color: black
+}
+
+p {
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+}

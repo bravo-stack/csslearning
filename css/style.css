@@ -1,9 +1,36 @@
 body {
     background-color: azure;
-    color: black
+    color: black;
 }
 
-p {
+.blue-border {
     padding: 8px;
     border: 2px solid rgb(0, 0, 0);
+}
+
+.blue-border:hover {
+    background-color: black;
+    color: white;
+}
+
+li:first-child {
+    color: rgb(21, 53, 141);
+}
+
+li:nth-child(2) {
+    color: darkred;
+}
+
+li:nth-child(3) {
+    color: magenta;
+}
+
+li:last-child {
+    color: chartreuse;
+}
+
+li:only-child {
+    color: rgb(26, 139, 22);
+    font-size: 25px;
+    font-weight: 600;
 }

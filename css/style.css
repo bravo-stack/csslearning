@@ -34,3 +34,13 @@ li:only-child {
     font-size: 25px;
     font-weight: 600;
 }
+
+.linkr:link {
+    color: black;
+    outline: none;
+}
+
+.linkr:visited {
+    text-decoration: none;
+    color: rgb(146, 113, 22);
+}

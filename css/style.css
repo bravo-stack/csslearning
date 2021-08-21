@@ -1,6 +1,8 @@
 body {
     background-color: azure;
     color: black;
+    outline: none;
+
 }
 
 .blue-border {
@@ -37,7 +39,6 @@ li:only-child {
 
 .linkr:link {
     color: black;
-    outline: none;
 }
 
 .linkr:visited {
